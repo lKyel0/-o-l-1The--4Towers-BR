@@ -1,4 +1,5 @@
-#Add-on The Towers-BR
+Español
+# Add-on The Towers-BR
 Add-on de The Towers para Minecraft Bedrock Edition.
 
 Características:
@@ -21,6 +22,7 @@ Información de contacto
 #Discord: Kyel0#3421
 #Twitter: @lKyel0
 
+English
 # The Towers-BR Plugin
 The Towers add-on for Minecraft Bedrock Edition.
 
@@ -40,6 +42,6 @@ Installation Commands:
 
 Contact information
 
-# Kyel0's Plugin
-# Discord: Kyel0 # 3421
-# Twitter: @ lKyel0
+#Kyel0's Plugin
+#Discord: Kyel0 # 3421
+#Twitter: @ lKyel0
