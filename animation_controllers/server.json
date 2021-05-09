@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.system": {
+            "states": {
+                "default": {
+                    "transitions": [{
+                        "alive": "query.is_moving == 1"
+                    }]
+                },
+                "alive": {
+                    "transitions": [{
+                        "kyel0": "(1.0)"
+                    }],
+                    "on_entry": [
+                        "/tell @s §o§l§7[Run] §3Add-on by Kyel0."
+                    ]
+                },
+                "kyel0": {
+                    "on_entry": [
+                        "/tag @s add kyel0"
+                    ]
+                }
+            }
+        }
+    }
+}

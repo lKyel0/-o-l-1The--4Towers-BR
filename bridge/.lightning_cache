@@ -1,0 +1,7 @@
+{
+	"function": {
+		"BP/functions/instal.mcfunction": {
+			"custom_commands": []
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.death": {
+            "initial_state": "alive",
+            "states": {
+                "alive": {
+                    "transitions": [
+                        { "dead": "!query.is_alive" }
+                    ]
+                },
+                "dead": {
+                    "transitions": [
+                        { "alive": "query.is_alive" }
+                    ],
+                    "on_entry": [
+                        "/playsound ambient.weather.lightning.impact @a[r=20]",
+                        "/execute @s[tag=blue] ~ ~ ~ clear @s",
+                        "/execute @s[tag=blue] ~ ~ ~ function main/kitblue",
+                        "/execute @s[tag=red] ~ ~ ~ clear @s",
+                        "/execute @s[tag=red] ~ ~ ~ function main/kitred",
+                        "/gamemode 0 @s"
+                    ]
+                }
+            }
+        }
+    }
+}
